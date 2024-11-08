@@ -26,7 +26,9 @@ import Mystery from "../../../assets/iconGenre/icon-detective.png"
 import War from "../../../assets/iconGenre/icon-war.png"
 import Western from "../../../assets/iconGenre/icon-western.png"
 import History from "../../../assets/iconGenre/icon-history.png"
-
+import Documentary from "../../../assets/iconGenre/documentary-movie.png"
+import Music from "../../../assets/iconGenre/icon-musicMovie.png"
+import TVMovie from "../../../assets/iconGenre/icon-tvMovie.png"
 
 
 // Genre to icon mapping
@@ -42,10 +44,10 @@ const genreIcons = {
     37: Western,
     53: Thriller,
     80: CrimeIcon,
-    99: Documentary, /* ** */
+    99: Documentary,
     878: SciFiIcon,
     9648: Mystery,
-    10402: Music, /* ** */
+    10402: Music,
     10749: Romance,
     10751: Family,
     10752: War,
@@ -53,7 +55,7 @@ const genreIcons = {
     10762: Kids,
     10765: SciFiFantasy,
     10768: WarPolitics,
-    10770: TVMovie,  /* ** */
+    10770: TVMovie,
 };
 
 
