@@ -1,0 +1,109 @@
+
+.allMovieSection {
+    padding: 20px;
+}
+
+.categoryTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+
+/* movie lsit content */
+
+.allMovieLists {
+    padding: 20px;
+}
+
+.allMovieLists-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 10px;
+}
+
+.allMovieLists-card {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    /* border: 1px solid black; */
+}
+
+
+
+.allmoviesCards-poster {
+    border-radius: 20px;
+    width: 100%;
+    height: 380px;
+}
+
+
+.allMovieLists-Cardbottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.allMovieListsl-name {
+    font-size: 20px;
+}
+
+.allMovieLists-rating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.allMovieLists-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+/* movie lsit content */
+
+
+
+@media only screen and (max-width: 1024px) {
+    .allMovieLists-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        gap: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .allMovieLists-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        justify-items: center;
+        gap: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+
+    .allMovieLists-content {
+        display: grid;
+        grid-template-columns: 1fr ;
+        justify-items: center;
+        gap: 10px;
+    }
+    .categoryTitle {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-items: center;
+    gap: 20px;
+    } 
+}

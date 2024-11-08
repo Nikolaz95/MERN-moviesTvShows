@@ -1,0 +1,67 @@
+
+
+
+
+.usersContentList-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.usersContentList-img {
+    border-radius: 20px;
+    width: 100%;
+    height: 250px;
+}
+
+.usersContentList-cardBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.usersContentList-bottomAdded {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.usersContentList-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .usersContentList-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        justify-items: center;
+        gap: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .usersContentList-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        gap: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+    .usersContentList-content {
+        display: grid;
+        grid-template-columns: 1fr ;
+        justify-items: center;
+        gap: 10px;
+    }
+}

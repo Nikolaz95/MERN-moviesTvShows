@@ -1,0 +1,39 @@
+
+
+
+
+
+.title-recommendations {
+    padding: 20px;
+}
+
+/* swiper content actors */
+.swiper-Recommendation {
+    background-color: yellowgreen;
+    height: 580px;
+}
+
+.card-rating {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.swiper-Recommendation .swiper-button-next, .swiper-button-prev{
+    color: rgb(255, 0, 0);
+}
+
+@media only screen and (max-width: 425px) {
+    .swiper-Recommendation {
+        background-color: rgb(50, 71, 205);
+        height: 580px;
+    }
+    .swiper-Recommendation
+    .swiper-button-next, .swiper-button-prev {
+        display: none;
+    }
+
+    .swiper-pagination {
+        display: none;
+    }
+}

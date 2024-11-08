@@ -1,0 +1,112 @@
+
+
+
+/* reviews  */
+
+.section-Reviews {
+    padding: 20px;
+}
+
+.content-Reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title-Reviews {
+    margin-bottom: 10px;
+}
+
+.main-Review {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    border: 1px solid black;
+}
+
+.inner-Review {
+    padding: 5px;
+    border: 1px solid black; /* izbrisat poslije */
+}
+
+
+.innertop-Review {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.innerleftTop-Review {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon-Review {
+   display: flex;
+   border-radius: 20px;
+    width: 80px;
+    height: 80px;
+}
+
+.innerRight-ReviewInfoUser {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+.innerRight-ReviewBoton {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 100%;
+}
+
+.textarea-review {
+    border: 1px solid black;
+    /* border: none; */
+    padding: 5px;
+    width: 100%;
+    overflow: auto;
+    resize: none;
+    height: 100px;
+}
+
+.loadMore-section {
+    display: flex;
+    justify-content: center;
+
+}
+
+@media only screen and (max-width: 425px) {
+    .innertop-Review {
+        gap: 10px;
+    }
+    .innerRight-ReviewInfoUser {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+}
+
+
+@media only screen and (max-width: 320px) {
+   
+    .section-Reviews {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+/* review */

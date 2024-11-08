@@ -1,0 +1,23 @@
+
+
+/* btn logout */
+
+.btn-logOut{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.9s ease;
+}
+
+.btn-logOutLogo {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}

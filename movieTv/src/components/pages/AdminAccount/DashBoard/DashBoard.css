@@ -1,0 +1,92 @@
+
+
+.tabs-contentProfile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 20px;
+  /* background-color: rgb(209, 174, 103); */
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.dashboard-layout {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid;
+  height: 650px;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: hidden; /* Add vertical scrollbar */
+}
+
+
+.admin-DashBoardSection {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  padding: 20px;
+  border: 1px solid;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-y: scroll; /* Add vertical scrollbar */
+}
+
+.admin-DashBoardSection::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+
+/* Hide scrollbar for Firefox */
+.admin-DashBoardSection {
+  scrollbar-width: none; /* Firefox */
+}
+
+.DashBoardSection-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+
+.adminStatsViews {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.adminStats-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .DashBoardSection-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .DashBoardSection-top {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+
+
+

@@ -1,0 +1,40 @@
+.setting-conteinerUpdateProfile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+label {
+    cursor: pointer;
+}
+
+.setting-contentUpdateProfile {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-updateProfileSeting {
+    display: flex;
+    justify-content: center;
+}
+
+.updateProfle-btn {
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}

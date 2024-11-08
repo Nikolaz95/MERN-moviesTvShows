@@ -1,0 +1,107 @@
+
+.UserNavbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    gap: 10px !important;
+}
+
+.userIconLogIn{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+
+/* dropDownMenu style start code  */
+
+.dropDownUser ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    width: 200px;
+    top: 121px;
+    right: 5px;
+    height: 250px;
+    z-index: 100000;
+    /* border: 1px solid black; */
+}
+
+
+/* .dropDownUser li {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+} */
+
+.dropDownUser-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dropDownUsertext {
+    color: black;
+}
+
+.dropDownUser ul a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20;
+    padding: 5px;
+    gap: 10px;
+    width: 100%;
+    border-radius: 10px;
+    margin: 0px 10px 0px 10px;
+    /* border: 1px solid black; */
+}
+
+
+.dropDownUser-icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+
+/* dropDownMenu style end code  */
+
+
+
+@media only screen and (max-width: 1000px) {
+    .navBar-Content.active ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        position: relative;
+        top: 0px;
+        right: 0px;
+        list-style: none;
+    }
+
+    .dropDownUser ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        position: absolute;
+        border-radius: 10px;
+        background-color: transparent;
+        padding: 10px;
+        width: 150px;
+        top: 121px;
+        right: 5px;
+        height: 250px;
+        z-index: 100000;
+        /* border: 1px solid black; */
+    }
+}

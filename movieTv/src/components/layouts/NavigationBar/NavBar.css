@@ -1,0 +1,125 @@
+
+
+
+/* navbar content start */
+
+.navBar-Content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
+  
+  
+  .navBar-Content ul{
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      padding: 5px;
+      list-style: none;
+      align-items: center;
+      /* border: 1px solid black; */
+    }
+  
+    .navBar-Content li{
+      display: flex;
+        flex-direction: row;
+        gap: 20px;
+        list-style: none;
+        align-items: center;
+      /* border: 1px solid black; */
+      }
+  
+      .navBar-Content li a {
+        text-decoration: none;
+      }
+  
+  
+  .icon-navigation {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+  }
+  
+  .navigation-style {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+  }
+
+  .disabled-link {
+    pointer-events: none;
+    color: gray; 
+    cursor: no-drop;
+    }
+  
+  /* navbar active */
+  
+  .no-scroll {
+    overflow: hidden;
+}
+
+  .navBar-Content li .active{
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    /*  border: 1px solid black; */
+    }
+    
+    
+    .navBar-Content ul li .active {
+    background: linear-gradient(to right,#c0fecf 0,#1ed5a9 100%);
+    font-weight: bold;
+    padding: 10px;
+    }
+    
+    .navBar-Content ul li a:not(.active):hover {
+    background-color: transparent;
+    }
+  
+    /* nav bar active kraj koda */
+  
+  
+  
+  /* navbar content kraj */
+
+
+  /* navbar mobile content start  */
+@media only screen and (max-width: 1000px) {
+.navBar-Content {
+  display: none;
+}
+
+.navBar-Content.active {
+  display: flex;
+  top: 120px;
+  right: 0px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(13.8px);
+  flex-direction: column;
+  height: 100%;
+  width: 65%;
+  position: fixed;
+  align-items: center;
+  overflow-y: auto;
+  z-index: 10000000;
+}
+
+
+.navBar-Content.active ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  }
+}
+
+
+
+
+/* navbar mobile content start  */

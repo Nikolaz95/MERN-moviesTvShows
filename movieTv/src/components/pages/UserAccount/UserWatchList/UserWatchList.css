@@ -1,0 +1,36 @@
+
+
+.usersContentList-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.usersContentList-img {
+    border-radius: 20px;
+    width: 100%;
+    height: 250px;
+}
+
+.usersContentList-cardBottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.usersContentList-bottomAdded {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.usersContentList-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+

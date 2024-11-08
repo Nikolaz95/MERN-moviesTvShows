@@ -1,0 +1,72 @@
+
+
+.actorDetails-topContent {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.actorDetailsTop-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.Actors-img {
+    height: 500px;
+    width: 350px;
+    border-radius: 20px;
+}
+.details-Actors {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.actorDetailsTop-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+/* actors movies */
+.actorDetailsMovies-title {
+    padding: 10px;
+}
+
+.actorDetailsMovies {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .actorDetails-topContent {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .details-Actors {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .actorDetails-topContent {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Actors-img {
+        height: 400px;
+        width: 250px;
+        border-radius: 20px;
+    }
+}
